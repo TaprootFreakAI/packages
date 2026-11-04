@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0-beta.0 (2026-11-04)
+
+### Bug Fixes
+
+- **bip322-multisig:** use .js extension for noble/curves import ([924ab1d](https://github.com/DFXswiss/packages/commit/924ab1d24333be72bf2ad44b8968cd64a8fdb321))
+- **bip322-multisig:** use @noble/curves v1 for CommonJS compatibility ([8edcb33](https://github.com/DFXswiss/packages/commit/8edcb3337c297a205a05f46b51c8fdebf60f00ea))
+
+### Features
+
+- **bip322-multisig:** add BIP-322 P2WSH signature verification ([#175](https://github.com/DFXswiss/packages/issues/175)) ([d70a7e3](https://github.com/DFXswiss/packages/commit/d70a7e3b3bcda141ab690d325fb9caa6f3d6179e))
+- **bip322-multisig:** new package for BIP-322 PSBTs from P2WSH descriptors ([#165](https://github.com/DFXswiss/packages/issues/165)) ([2d48fb4](https://github.com/DFXswiss/packages/commit/2d48fb44477df720e8827801df0ab9d664ff3527))
+
 ## [0.2.1](https://github.com/DFXswiss/packages/compare/@dfx.swiss/bip322-multisig@0.2.1-beta.0...@dfx.swiss/bip322-multisig@0.2.1) (2026-09-14)
 
 **Note:** Version bump only for package @dfx.swiss/bip322-multisig

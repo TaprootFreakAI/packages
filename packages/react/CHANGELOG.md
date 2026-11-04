@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.9.0-beta.0 (2026-11-04)
+
+### Bug Fixes
+
+- correct bank-refund endpoint URL ([#123](https://github.com/DFXswiss/packages/issues/123)) ([ea3b252](https://github.com/DFXswiss/packages/commit/ea3b2528784cd372954e5387e0404d866710ba21))
+- phone call data ([ad6224c](https://github.com/DFXswiss/packages/commit/ad6224c85607fd5bbd366aab452446665217dba4))
+- **react:** keep the support chat sync alive, and let a failed message be sent again ([#210](https://github.com/DFXswiss/packages/issues/210)) ([a3bace9](https://github.com/DFXswiss/packages/commit/a3bace9de2171ad179f7311028eedb7d7e38b6f7))
+- **react:** omit userAddress on transaction list without session address ([#189](https://github.com/DFXswiss/packages/issues/189)) ([f1b115a](https://github.com/DFXswiss/packages/commit/f1b115ac3c319354aa5503165feffb5acecb49ff))
+- **react:** refresh the cached user after updateMail ([#196](https://github.com/DFXswiss/packages/issues/196)) ([9462884](https://github.com/DFXswiss/packages/commit/9462884498b296decbfb024f8c602455a5627eba)), closes [#473](https://github.com/DFXswiss/packages/issues/473)
+- **react:** swallow blocked localStorage in the auth token store ([#229](https://github.com/DFXswiss/packages/issues/229)) ([3d0ca6a](https://github.com/DFXswiss/packages/commit/3d0ca6ad03b3b195386c0047db6cbe95030707b8))
+- resolve 23 ESLint warnings in [@dfx](https://github.com/dfx).swiss/react ([#171](https://github.com/DFXswiss/packages/issues/171)) ([e96b3e6](https://github.com/DFXswiss/packages/commit/e96b3e6954c04832fc239879e6a3c1b5b0b260ba))
+- single refund endpoint ([dc9f021](https://github.com/DFXswiss/packages/commit/dc9f021dc151d339857df658b61e9f5b77bdbea7))
+
+### Features
+
+- add Ark blockchain enum and payment link support ([#137](https://github.com/DFXswiss/packages/issues/137)) ([0b22e33](https://github.com/DFXswiss/packages/commit/0b22e33533f0c4e4c951a7e3bbc3ea0bced45fb5))
+- add CheckStatus and AmlReason enums ([#146](https://github.com/DFXswiss/packages/issues/146)) ([b803869](https://github.com/DFXswiss/packages/commit/b803869ae9d103982f6cf845dc22cc925ce48d21))
+- add Firo blockchain support ([#129](https://github.com/DFXswiss/packages/issues/129)) ([388990d](https://github.com/DFXswiss/packages/commit/388990dc46573abff2e28e131e4aafb146eee7c3))
+- add Internet Computer (ICP) blockchain support ([#130](https://github.com/DFXswiss/packages/issues/130)) ([9d01c90](https://github.com/DFXswiss/packages/commit/9d01c90187dfccdc57ddc8c54ee5457b52b9e3ff))
+- add KycChangePhoneData interface and setPhoneChangeData hook method ([#136](https://github.com/DFXswiss/packages/issues/136)) ([44c3707](https://github.com/DFXswiss/packages/commit/44c37078514a08c996415e61c224b76aed3f0b4e))
+- add REALUNIT entry to frontend UserRole enum ([#126](https://github.com/DFXswiss/packages/issues/126)) ([524d62e](https://github.com/DFXswiss/packages/commit/524d62e17c0cfb7ad8fb1a8d87fd241eea16cc25))
+- add RECOMMENDATION_REQUIRED and EMAIL_REQUIRED transaction errors ([#121](https://github.com/DFXswiss/packages/issues/121)) ([d4eb885](https://github.com/DFXswiss/packages/commit/d4eb885d62053dd146732ee42cb24f6bc116d4b9))
+- add setTransactionBankRefund for creditor data submission ([#122](https://github.com/DFXswiss/packages/issues/122)) ([0eec49e](https://github.com/DFXswiss/packages/commit/0eec49ea01d80cd95716f2593f6e93d26ead3773))
+- Add SPARK blockchain support to React package ([#100](https://github.com/DFXswiss/packages/issues/100)) ([37690dd](https://github.com/DFXswiss/packages/commit/37690dd2b38bea6daab303d82f5d8332b5a883d6))
+- add STOPPED transaction state ([#145](https://github.com/DFXswiss/packages/issues/145)) ([86afa52](https://github.com/DFXswiss/packages/commit/86afa525465640a30fc35d362b99a1460e5c4d52))
+- add SupportIssueInternalState, Department enums and Marketing role ([#144](https://github.com/DFXswiss/packages/issues/144)) ([4e02dcd](https://github.com/DFXswiss/packages/commit/4e02dcd93962f094351627d05ea197d3fa2ae9b3))
+- Added transaction error ([31b9e8e](https://github.com/DFXswiss/packages/commit/31b9e8eb2c20b750e07aad8471d78b344a3be4bd))
+- **bank:** add a receive-IBAN check to the bank client and hook ([#192](https://github.com/DFXswiss/packages/issues/192)) ([e7a8f89](https://github.com/DFXswiss/packages/commit/e7a8f8912716b93a36756a8991dab8ff5b0de592))
+- cancel KYC step ([d3b2142](https://github.com/DFXswiss/packages/commit/d3b21420e7737fd42dbfb96ccd01c3c1f0735d51))
+- Citrea blockchain ([f3feb1a](https://github.com/DFXswiss/packages/commit/f3feb1a3ba8fdb5c385ead6335b64bdd6a86f69a))
+- **compliance:** add manual AML pass whitelist and canManualPass helper ([#176](https://github.com/DFXswiss/packages/issues/176)) ([00f647d](https://github.com/DFXswiss/packages/commit/00f647d68af0ae0b2b492f5853b00bfb6e2db5d6))
+- **core,react:** let the buy invoice call target the collection account ([#204](https://github.com/DFXswiss/packages/issues/204)) ([d388d81](https://github.com/DFXswiss/packages/commit/d388d8105a539e56f78d246462c6ca021233bf39)), closes [DFXswiss/api#4686](https://github.com/DFXswiss/api/issues/4686) [DFXswiss/services#1270](https://github.com/DFXswiss/services/issues/1270) [#152](https://github.com/DFXswiss/packages/issues/152) [DFXswiss/api#4686](https://github.com/DFXswiss/api/issues/4686) [DFXswiss/services#1270](https://github.com/DFXswiss/services/issues/1270)
+- **core:** add personal IBAN provider contract ([#191](https://github.com/DFXswiss/packages/issues/191)) ([67f4cd5](https://github.com/DFXswiss/packages/commit/67f4cd5c4d509ccd591f9968e7178b41cb4a0e03))
+- **core:** add the Yapeal personal IBAN provider member ([#211](https://github.com/DFXswiss/packages/issues/211)) ([2880e00](https://github.com/DFXswiss/packages/commit/2880e00f161f311a15bc6e454dc08937fa5c3754))
+- expose switchToCode on ApiException for merged-account redirects ([#187](https://github.com/DFXswiss/packages/issues/187)) ([2084e20](https://github.com/DFXswiss/packages/commit/2084e20c9ee3fd58e399d0a9a9e771f2fd135cc6)), closes [DFXswiss/api#4092](https://github.com/DFXswiss/api/issues/4092)
+- updated KYC step cancel ([c5d6a7c](https://github.com/DFXswiss/packages/commit/c5d6a7cbd07d528c6b0dce8a8bb5b6c6e37793bf))
+- verification call DTO update ([a976897](https://github.com/DFXswiss/packages/commit/a976897715868cac396627ab52f8c62a097243de))
+
 ## [1.8.6-beta.1](https://github.com/DFXswiss/packages/compare/@dfx.swiss/react@1.8.6-beta.0...@dfx.swiss/react@1.8.6-beta.1) (2026-11-04)
 
 **Note:** Version bump only for package @dfx.swiss/react

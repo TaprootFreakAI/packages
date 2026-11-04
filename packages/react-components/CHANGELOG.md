@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0-beta.0 (2026-11-04)
+
+### Bug Fixes
+
+- resolve 67 ESLint warnings in [@dfx](https://github.com/dfx).swiss/react-components ([#172](https://github.com/DFXswiss/packages/issues/172)) ([dd7f061](https://github.com/DFXswiss/packages/commit/dd7f061c7d22111e53ae5d122c0b2d465904053e))
+
+### Features
+
+- add asset icons for ckBTC, VEUR and VCHF ([#134](https://github.com/DFXswiss/packages/issues/134)) ([b7a7652](https://github.com/DFXswiss/packages/commit/b7a7652275d577b372c48ddef7c4d7e0ddd35a0d))
+- add Internet Computer (ICP) blockchain support ([#130](https://github.com/DFXswiss/packages/issues/130)) ([9d01c90](https://github.com/DFXswiss/packages/commit/9d01c90187dfccdc57ddc8c54ee5457b52b9e3ff))
+- add WETH asset icon variant ([#138](https://github.com/DFXswiss/packages/issues/138)) ([fc0269f](https://github.com/DFXswiss/packages/commit/fc0269fb4f8dce9fbd1696eef30170fbc0ac7a26))
+- added FIRO icon ([b0fc8e1](https://github.com/DFXswiss/packages/commit/b0fc8e1cb545849b0e56df7b7d8d550d907e82aa))
+- Citrea asset icons ([9325fbb](https://github.com/DFXswiss/packages/commit/9325fbb42fa8442c8dad3bd6a2ea71722ead451e))
+- juice icon ([5f0b2fa](https://github.com/DFXswiss/packages/commit/5f0b2fa3ba2dd17f55b8087208cfabb98052150e))
+
 ## [1.3.3](https://github.com/DFXswiss/packages/compare/@dfx.swiss/react-components@1.3.3-beta.0...@dfx.swiss/react-components@1.3.3) (2026-09-26)
 
 **Note:** Version bump only for package @dfx.swiss/react-components
